@@ -1,0 +1,63 @@
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+/*new code back image start*/
+
+.header_section{
+width: 100%;
+height: 100vh;
+
+}
+#pic{
+background: url(new.jpg) no-repeat;
+background-size: cover;
+background-position: center center;
+	
+}
+.header_body{
+width:100%; 
+height: 100vh;
+text-align: center;
+}
+
+
+@media (max-width: 425px) {
+
+.header_section{
+width: 100%;
+height: 100vh;
+
+}
+#pic{
+background: url(new.jpg) no-repeat;
+background-size: cover;
+background-position: center center;
+	
+}
+.header_body{
+width:100%; 
+height: 100vh;
+text-align: center;
+}
+
+}
+/*end code*/
+
+
+/*
+.cntGame{position:absolute;
+top:0;
+left:0;}
+.cntControlPanel{position:absolute;
+top:0;
+left:0;}*/
+/*.cntMain {
+	   
+    border-top: solid 2px #777;
+    border-left: solid 2px #777;
+    border-bottom:solid 2px  #eaeaea;
+    border-right: solid 2px #eaeaea;
+	border-radius: 10px;
+}*/
